@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background: url(download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#a1 {
+    width: 500px;
+    height: 50px;
+    color: white;
+    font-family: sans-serif;
+    animation-name: example;
+    position: relative;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    50% {
+        left: 1500px;
+        top: 0px;
+    }
+
+}
+
+#a2 {
+    font-family: sans-serif;
+    margin-top: 150px;
+    text-align: center;
+    color: rgb(204, 203, 203);
+}
+
+#a2 h1 {
+    font-size: 50px;
+}
+
+#a2 p {
+    font-size: 25px;
+}
+
+#a2 a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(204, 203, 203);
+    border: 2px solid blueviolet;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+#a2 a:hover {
+    border: 2px solid rgb(30, 0, 58);
+}
